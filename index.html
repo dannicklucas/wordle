@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="./wordle.js"></script>
+  <div id="header"> 
+    <div id="wordle"> Wordle </div>
+    <div id = "menu">
+    <label id="button" onclick= "darkMode()" >&#9681;</label>  
+    <label id="button" onclick= "testhint()" >&#63;</label>
+    <label id="button" onclick= "instr()">&#9432;</label>
+    </div>
+  </div>
+    <hr>
+    <br>
+    <div id="middle">
+    <div id="gameAndButton">
+    <div id="game">
+    
+    </div>
+    <br>
+    <br>
+    <label id="startOver" onclick = "reset()">Start Over</label> 
+    
+    </div>
+    <div id="info"></div>
+    </div>
+
+    <br>
+    <div id="bar"></div>
+    <div id="footer"><p>©Dannick Lucas</p></div>
+  </body>
+</html>
